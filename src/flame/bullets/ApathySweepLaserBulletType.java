@@ -147,7 +147,7 @@ public class ApathySweepLaserBulletType extends BulletType{
 
                 d.hit = false;
                 d.remove();
-                dtype.hitEffect.at(d.x, d.y, d.rotation(), dtype.hitColor);
+                if(dtype.hitColor != null) dtype.hitEffect.at(d.x, d.y, d.rotation(), dtype.hitColor);
                 dtype.hitSound.at(d.x, d.y, dtype.hitSoundPitch, dtype.hitSoundVolume);
                 Effect.shake(dtype.hitShake, dtype.hitShake, d);
 
