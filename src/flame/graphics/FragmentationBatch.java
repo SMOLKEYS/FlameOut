@@ -14,7 +14,7 @@ import mindustry.entities.*;
 import mindustry.gen.*;
 import mindustry.graphics.*;
 
-public class FragmentationBatch extends Batch{
+public class FragmentationBatch extends LegacyBatch{
     public float baseElevation;
     public Cons<FragmentEntity> fragFunc = e -> {}, onDeathFunc = null;
     public Cons<Fragmentation> fragDataFunc = null;

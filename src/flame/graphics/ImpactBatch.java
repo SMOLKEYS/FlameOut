@@ -6,7 +6,7 @@ import arc.graphics.g2d.*;
 import arc.graphics.gl.*;
 import arc.math.*;
 
-public class ImpactBatch extends SpriteBatch{
+public class ImpactBatch extends LegacySpriteBatch{
     public float u, v, u2, v2;
     public float rx, ry;
     public float lastRotation;

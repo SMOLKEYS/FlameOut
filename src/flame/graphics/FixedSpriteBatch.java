@@ -6,7 +6,7 @@ import arc.graphics.g2d.*;
 import arc.graphics.gl.*;
 import arc.math.*;
 
-public class FixedSpriteBatch extends SpriteBatch{
+public class FixedSpriteBatch extends LegacySpriteBatch{
     public static FixedSpriteBatch batch;
     static Batch lastBatch;
 

@@ -14,7 +14,7 @@ import flame.entities.*;
 import flame.entities.RenderGroupEntity.*;
 import flame.graphics.CutBatch.*;
 
-public class VaporizeBatch extends Batch{
+public class VaporizeBatch extends LegacyBatch{
     public VaporizeHandler cons;
     public SpriteHandler spriteHandler;
     public Cons<Disintegration> discon;

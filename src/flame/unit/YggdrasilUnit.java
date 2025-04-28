@@ -28,11 +28,6 @@ public class YggdrasilUnit extends UnitEntity{
     }
 
     @Override
-    public int pathType(){
-        return Pathfinder.costLegs;
-    }
-
-    @Override
     public void update(){
         float maxProg = 0f;
         //int lastGroup = Mathf.mod(group - (groupSize / 2 + 1), groupSize);

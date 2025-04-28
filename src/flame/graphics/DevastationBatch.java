@@ -8,7 +8,7 @@ import arc.math.*;
 import flame.effects.*;
 import mindustry.graphics.*;
 
-public class DevastationBatch extends Batch{
+public class DevastationBatch extends LegacyBatch{
     Cons<Devastation> cons;
     public float baseZ = Layer.block;
 

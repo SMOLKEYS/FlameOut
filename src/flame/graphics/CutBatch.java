@@ -11,7 +11,7 @@ import arc.struct.*;
 import flame.effects.*;
 import mindustry.entities.*;
 
-public class CutBatch extends Batch{
+public class CutBatch extends LegacyBatch{
     public Effect explosionEffect;
     public Cons<Severation> cutHandler;
     public Sound sound;
