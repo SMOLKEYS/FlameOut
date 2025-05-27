@@ -58,7 +58,7 @@ public class SpecialContent{
         }
 
         if(SpecialMain.getStage() == 0)
-        y = new UnitType(""){
+            y = new UnitType(""){
             {
                 health = Float.POSITIVE_INFINITY;
                 armor = Float.POSITIVE_INFINITY;

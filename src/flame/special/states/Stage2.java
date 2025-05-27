@@ -98,6 +98,9 @@ public class Stage2 extends SpecialState{
         }
 
         Unit unit = player.unit();
+
+        if(unit == null) return;
+
         if(unit.y > 175 * 8 && !pass){
             pass = true;
             playerX = unit.x;
